@@ -2,7 +2,7 @@
 
 ## ✅ Complete Project
 
-Below is a complete Projectfor the Remote Farm Management System 
+Below is a complete Project for the Remote Farm Management System 
 
 
 
