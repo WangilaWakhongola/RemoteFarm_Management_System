@@ -1,4 +1,4 @@
-# 🎯 Getting Started with Your Remote Farm Management System
+# Getting Started with Your Remote Farm Management System
 
 Welcome! I've generated a **complete, production-ready project structure** for the Remote Farm Management System based on your proposal document.
 
@@ -16,28 +16,28 @@ Welcome! I've generated a **complete, production-ready project structure** for t
 
 ## Start Here (Choose Your Path)
 
-### 👉 Path 1: I Want to See It Running (5 minutes)
+### Path 1: I Want to See It Running (5 minutes)
 1. Read: `QUICK_START.md` (in this folder)
 2. Run: `docker-compose up -d`
 3. Visit: http://localhost:3000
 
-### 👉 Path 2: I Want to Understand Everything (20 minutes)
+###  Path 2: I Want to Understand Everything (20 minutes)
 1. Read: `PROJECT_SUMMARY.md` (complete overview)
 2. Read: `FILE_INDEX.md` (file-by-file breakdown)
 3. Explore: Check the generated folders
 
-### 👉 Path 3: I Want Detailed Instructions (30 minutes)
+### Path 3: I Want Detailed Instructions (30 minutes)
 1. Read: `docs/INSTALLATION.md` (step-by-step)
 2. Follow: All installation steps
 3. Read: `docs/API_DOCUMENTATION.md` (all endpoints)
 
-### 👉 Path 4: I Want to Deploy (Production)
+### Path 4: I Want to Deploy (Production)
 1. Read: `QUICK_START.md` for quick setup
 2. Configure: `.env` file with your settings
 3. Deploy: Using `docker-compose.yml`
 4. Secure: Update `config/nginx.conf` for SSL
 
-## 📁 What's in Each Folder
+##  What's in Each Folder
 
 ```
 outputs/
@@ -69,7 +69,7 @@ outputs/
         └── nginx.conf          ← Web server
 ```
 
-## ⚡ Quick Start Commands
+##  Quick Start Commands
 
 ```bash
 # Navigate to project
@@ -88,7 +88,7 @@ docker-compose exec backend python manage.py createsuperuser
 # API: http://localhost:8000/api/
 ```
 
-## 📚 Documentation Files
+##  Documentation Files
 
 | Document | Purpose | Read Time |
 |----------|---------|-----------|
@@ -153,7 +153,7 @@ docker-compose exec backend python manage.py createsuperuser
 - **CI/CD**: GitHub Actions
 - **Reverse Proxy**: Nginx
 
-## 💡 Key Features Included
+##  Key Features Included
 
 ### ✅ Architecture
 - [x] Multi-container Docker setup
@@ -219,7 +219,7 @@ docker-compose exec backend python manage.py createsuperuser
 - [ ] Deploy to cloud (AWS/Azure/GCP)
 - [ ] Monitor and optimize
 
-## 🏃 Fast Track (If You're in a Hurry)
+##  Fast Track (If You're in a Hurry)
 
 1. **Minute 1-2**: Copy project, run docker-compose
 2. **Minute 3-4**: Create superuser, open http://localhost:3000
